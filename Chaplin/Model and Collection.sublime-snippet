@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+{ Model, Collection } = require 'core/models'
+
+class ${1:ModelName} extends Model
+
+class ${1:ModelName}Collection extends Collection
+
+  model: ${1:ModelName}
+
+module.exports = { ${1:ModelName}, ${1:ModelName}Collection }
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>chmodcol</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+   <scope>source.coffee</scope>
+</snippet>

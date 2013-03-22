@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+module.exports =
+
+  tests: (cx) ->
+
+    { it, describe, beforeEach } = cx
+
+    ${1}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>chdto</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+   <scope>source.coffee</scope>
+</snippet>
